@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		59C2DD992D878D8300EE7F03 /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 59C2DD982D878D8300EE7F03 /* SplineRuntime */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		59C2DD7A2D8788CE00EE7F03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		59C2DD692D8788CD00EE7F03 /* OoBEUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OoBEUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C2DD792D8788CE00EE7F03 /* OoBEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OoBEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C2DD832D8788CE00EE7F03 /* OoBEUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OoBEUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59C2DD972D878D6300EE7F03 /* spline-ios-main */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "spline-ios-main"; path = "../../../Downloads/spline-ios-main"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C2DD992D878D8300EE7F03 /* SplineRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,7 @@
 				59C2DD6B2D8788CD00EE7F03 /* OoBEUI */,
 				59C2DD7C2D8788CE00EE7F03 /* OoBEUITests */,
 				59C2DD862D8788CE00EE7F03 /* OoBEUIUITests */,
+				59C2DD962D878D6200EE7F03 /* Frameworks */,
 				59C2DD6A2D8788CD00EE7F03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +97,14 @@
 				59C2DD832D8788CE00EE7F03 /* OoBEUIUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		59C2DD962D878D6200EE7F03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59C2DD972D878D6300EE7F03 /* spline-ios-main */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +127,7 @@
 			);
 			name = OoBEUI;
 			packageProductDependencies = (
+				59C2DD982D878D8300EE7F03 /* SplineRuntime */,
 			);
 			productName = OoBEUI;
 			productReference = 59C2DD692D8788CD00EE7F03 /* OoBEUI.app */;
@@ -195,6 +211,9 @@
 			);
 			mainGroup = 59C2DD602D8788CD00EE7F03;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				59C2DD9A2D878EA700EE7F03 /* XCLocalSwiftPackageReference "../../../Downloads/spline-ios-main" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 59C2DD6A2D8788CD00EE7F03 /* Products */;
 			projectDirPath = "";
@@ -558,6 +577,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		59C2DD9A2D878EA700EE7F03 /* XCLocalSwiftPackageReference "../../../Downloads/spline-ios-main" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../../Downloads/spline-ios-main";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		59C2DD982D878D8300EE7F03 /* SplineRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SplineRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 59C2DD612D8788CD00EE7F03 /* Project object */;
 }
